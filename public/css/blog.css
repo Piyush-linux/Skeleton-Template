@@ -1,0 +1,30 @@
+/* card */
+
+.card{
+	margin-bottom: 100px;
+	padding: 1em;
+}
+.card img{
+	width: 100%;
+	min-height:15vw;
+	/*max-height:13em;*/
+	/*height:auto;*/
+	/*height: 25vh;*/
+  /*padding-left: 1em;*/
+	/*position: absolute;*/
+}
+.card h1{
+	text-align: center;
+	font-size: 2em;
+	/*font-family: ;*/
+	margin-bottom: 1em;
+}
+.card-foot{
+	margin-bottom: 0;
+}
+.card .site{
+	float: left;
+}
+.card .date{
+	float: right;
+}

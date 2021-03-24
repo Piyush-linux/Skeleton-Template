@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+*{
+        font-family: Roboto Mono;
+}
+/* Navbar  */
+/* Navbar */
+.iconify{
+        width: 2em;
+        height: 2em;
+}
+nav{
+}
+ul{
+        background-color: white;
+        padding: 0;
+        text-align: center;
+        list-style: none;
+}
+nav .row{
+        display: flex;
+        justify-content: center;
+
+}
+nav .columns{
+        margin-left: 0;
+        float: none;
+}
+nav .two.columns{
+        width: auto;
+        margin-left: 1em;
+        margin-right: 1em;
+}
+nav li{
+        margin-bottom: 0;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+}
+nav a{
+        padding: 1.3em;
+        color:black;
+        /*font-family: Hermit;*/
+        /*font-weight: bolder;*/
+        /*font-size: .9em;*/
+        /*letter-spacing: 1px;*/
+        text-decoration: none;
+}
+nav a:hover{
+	background-color: #48dbfb;
+	color:white;
+}
+/*Footer*/
+/*Footer*/
+footer{
+        background-color: #34495e;
+        color:white;
+        text-align: center;
+        padding: 2.8em;
+}
+footer .iconify{
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 2em;
+        height: 2em;
+        transition: .4s;
+}
+footer a{
+        text-decoration: none;
+        color:white;
+}
+footer a :hover{
+        padding: 8px;
+        border-radius: 50%;
+        color:#2d3436;
+        background-color: #ecf0f1;
+        border:1px solid white;
+        transition: .4s;
+}

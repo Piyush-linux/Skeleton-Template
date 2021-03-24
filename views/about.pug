@@ -1,0 +1,27 @@
+doctype html
+html
+	head
+		include ../comp/head
+	body
+		//-Navber
+		include ../comp/navbar 
+		//-main
+		main.container
+			h1 FORM
+			hr 
+			form(action="/form" method="post")
+				//-input
+				.row
+					.six.columns 
+						input.u-full-width(type="text" placeholder="name" name='name')
+					.six.columns
+						input.u-full-width(type="email" placeholder="email" name='email')
+				//-feeback
+				.row
+					textarea.u-full-width(placeholder="Feedback ..." name="mess")
+				//-submit
+				.row#submit
+					.u-full-width
+						input(type='submit' value="SUBMIT").button.button-primary 
+		//-footer
+		include ../comp/footer

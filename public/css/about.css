@@ -1,0 +1,22 @@
+/* Form */
+main{
+	margin-top: 5em;
+}
+h1{
+	font-weight:light;
+	letter-spacing: 30px;
+}
+.container{
+	text-align: center;
+	margin-top: 4em;
+}
+input{
+font-family: Hermit;
+letter-spacing: 2px;
+}
+#submit{
+	text-align: center;
+}
+#submit .button{
+	letter-spacing: 3px;
+}
